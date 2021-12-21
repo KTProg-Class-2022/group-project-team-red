@@ -7,6 +7,7 @@ namespace Simple_Base_Code
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Class!");
+            Console.WriteLine("Mikey Naj");
         }
     }
 }
