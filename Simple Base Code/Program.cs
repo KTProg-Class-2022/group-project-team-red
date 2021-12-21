@@ -6,8 +6,27 @@ namespace Simple_Base_Code
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Class!");
-            Console.WriteLine("Mikey Naj");
+            Boolean end = false;
+            map m = new map();
+
+
+            while (end == false)
+            {
+                switch (Console.ReadLine())
+                {
+                    case "next":
+                        break;
+
+                    case "prev":
+                        break;
+
+                    default:
+                        Console.WriteLine("All good things have to come to an end, Goodbye :)");
+                        end = true;
+                        break;
+                }
+            }
+            
         }
     }
 }
