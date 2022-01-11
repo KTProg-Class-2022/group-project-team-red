@@ -71,5 +71,10 @@ namespace Simple_Base_Code
             r = roomList[counter];
             return r;
         }
+
+        public bool getLocked()
+        {
+            return r.getLocked();
+        }
     }
 }

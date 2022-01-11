@@ -6,18 +6,24 @@ namespace Simple_Base_Code
     {
         static void Main(string[] args)
         {
-            Boolean end = false;
+            bool end = false;
+            bool locked = true;
             map m = new map();
 
 
             while (end == false)
             {
-                switch (Console.ReadLine())
+                 switch (Console.ReadLine())
                 {
                     case "next":
+                        if (m.getLocked() == false)
+                        {
+                            m.nextRoom();
+                        }
                         break;
 
                     case "prev":
+                        m.prevRoom();
                         break;
 
                     default:
