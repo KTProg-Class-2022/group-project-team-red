@@ -24,6 +24,11 @@ namespace Simple_Base_Code
                 if (i == 1)
                 {
                     r = new room("Mikey Naj");
+                    /*
+                     * 
+                     * 
+                     * 
+                     */
                 }
 
                 if (i == 2)
