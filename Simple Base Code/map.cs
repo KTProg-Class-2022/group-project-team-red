@@ -34,7 +34,7 @@ namespace Simple_Base_Code
                 if (i == 2)
                 {
                     r = new room("Ryan");
-                    /*Bomb
+                    /* Bomb
                      * 4 Buttons in a Closet
                      * Plant changes color
                      * Robot
@@ -48,11 +48,21 @@ namespace Simple_Base_Code
                 if (i == 3)
                 {
                     r = new room("Duffy");
+                    /*
+                     * 
+                     * 
+                     * 
+                     */
                 }
 
                 else
                 {
                     r = new room("Ana");
+                    /*
+                     * 
+                     * 
+                     * 
+                     */
                 }
 
                 roomList.Add(r);
