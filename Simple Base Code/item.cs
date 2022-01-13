@@ -6,5 +6,6 @@ namespace Simple_Base_Code
 {
     class item
     {
+
     }
 }

@@ -34,6 +34,15 @@ namespace Simple_Base_Code
                 if (i == 2)
                 {
                     r = new room("Ryan");
+                    /*Bomb
+                     * 4 Buttons in a Closet
+                     * Plant changes color
+                     * Robot
+                     * Wall Carvings
+                     * End Table with Light
+                     * Door exit
+                     * Shelf
+                     */
                 }
 
                 if (i == 3)
