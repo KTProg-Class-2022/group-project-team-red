@@ -24,7 +24,7 @@ namespace Simple_Base_Code
                 if (i == 1)
                 {
                     r = new room("Mikey Naj");
-                    /*there is a timer that starts when the player enters the room, and they have to open a box in the center of the room after they enter
+                    /* there is a timer that starts when the player enters the room, and they have to open a box in the center of the room after they enter
                      * Box has a puzzle in it with one missing piece, player has to find it
                      * there are two tables, broken picture frame with broken glass
                      * empty shelf, window with natural light
