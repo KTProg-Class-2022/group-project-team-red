@@ -10,20 +10,54 @@ namespace Simple_Base_Code
             bool locked = true;
             map m = new map();
 
+            Console.WriteLine("Welcome to the Two Mikes Game");
+            Console.WriteLine("next: Move to the next room");
+            Console.WriteLine("prev: Move to the previous room");
+            Console.WriteLine("interact: Shows a list of objects to interact with");
+            Console.WriteLine("help: will bring up a menu like this");
+            Console.WriteLine("!WARNING! Mispelling will cause game to end :)");
+
 
             while (end == false)
             {
-                 switch (Console.ReadLine())
+
+                switch (Console.ReadLine())
                 {
                     case "next":
                         if (m.getLocked() == false)
                         {
                             m.nextRoom();
+                            Console.WriteLine("Yo u in");
                         }
                         break;
 
                     case "prev":
-                        m.prevRoom();
+                        if (m.getCount() != 0)
+                        {
+                            m.prevRoom();
+                            Console.WriteLine("back");
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("cant go back");
+                        }
+                        break;
+
+
+                    case "help":
+                        Console.WriteLine("next: Move to the next room");
+                        Console.WriteLine("prev: Move to the previous room");
+                        Console.WriteLine("interact: Shows a list of objects to interact with");
+                        Console.WriteLine("help: will bring up a menu like this");
+                        Console.WriteLine("key: only when needing to unlock next room for testing");
+                        Console.WriteLine("!WARNING! Mispelling will cause game to end :)");
+                        break;
+
+                    //anything after this is for testing only!!!!
+                    case "key":
+                        Console.WriteLine("used admin key");
+                        m.unlockRoom();
                         break;
 
                     default:

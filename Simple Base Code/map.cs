@@ -98,9 +98,20 @@ namespace Simple_Base_Code
             return r;
         }
 
+        public int getCount()
+        {
+            return counter;
+        }
+
         public bool getLocked()
         {
             return r.getLocked();
+        }
+
+        //testing only!!!!
+        public void unlockRoom()
+        {
+            r.unlock();
         }
     }
 }
