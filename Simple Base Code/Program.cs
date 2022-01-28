@@ -10,6 +10,9 @@ namespace Simple_Base_Code
             bool locked = true;
             map m = new map();
 
+            Console.WriteLine("Hello Mr. L, this game is a work in progress currently in Pre-Alpha! So far the only thing we have completed is a few commands, and we have made comments in the code");
+            Console.Write(" for each room.");
+
             Console.WriteLine("Welcome to the Two Mikes Game");
             Console.WriteLine("next: Move to the next room");
             Console.WriteLine("prev: Move to the previous room");
