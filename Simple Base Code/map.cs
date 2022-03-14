@@ -32,6 +32,7 @@ namespace Simple_Base_Code
                      * Puzzle piece will be found hiding behind the broken frame, next to broken glass
                      * player takes the puzzle piece, completes puzzle, gets a key to leave the room and they walk out of the door
                      */
+
                 }
 
                 if (i == 2)
