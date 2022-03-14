@@ -10,6 +10,7 @@ namespace Simple_Base_Code
         List<room> roomList = new List<room>();
         room r;
         int counter = 0;
+        
         public map()
         {
             
@@ -45,6 +46,9 @@ namespace Simple_Base_Code
                      * Door exit
                      * Shelf
                      */
+                    
+                    item ex = new item("Bomb", "Blow Up");
+
                 }
 
                 if (i == 3)
