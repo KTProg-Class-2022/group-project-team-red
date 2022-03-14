@@ -10,6 +10,10 @@ namespace Simple_Base_Code
         List<room> roomList = new List<room>();
         room r;
         int counter = 0;
+        item ex;
+
+        List<item> najRoom = new List<item>();
+        List<item> ryanRoom = new List<item>();
         
         public map()
         {
@@ -47,7 +51,26 @@ namespace Simple_Base_Code
                      * Shelf
                      */
                     
-                    item ex = new item("Bomb", "Blow Up");
+                    ex = new item("Bomb", "Blow Up");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("Buttons", "For player to press");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("Robot", "Robot needs to be fixed");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("Wall Carvings", "For player to look at");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("End table with light", "Light can see wall carvings");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("Shelf", "Will have stuff");
+                    ryanRoom.Add(ex);
+
+                    ex = new item("Door", "player can exit");
+                    ryanRoom.Add(ex);
 
                 }
 
