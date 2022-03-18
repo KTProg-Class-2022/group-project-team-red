@@ -10,14 +10,17 @@ namespace Simple_Base_Code
             bool locked = true;
             map m = new map();
 
-            Console.WriteLine("Hello Mr. L, this game is a work in progress currently in Pre-Alpha! So far the only thing we have completed is a few commands, and we have made comments in the code");
-            Console.Write(" for each room.");
+            Console.WriteLine("Hello Mr. L Mikey Naj and I (Ryan) have finished sprint 2 just in time, and now we are moving on to sprint 3");
+            Console.WriteLine("If you type in the word 'key' you will automatically open the room, although this is just for testing so that we can get around the map properly");
+            Console.WriteLine("");
+
 
             Console.WriteLine("Welcome to the Two Mikes Game");
             Console.WriteLine("next: Move to the next room");
             Console.WriteLine("prev: Move to the previous room");
             Console.WriteLine("interact: Shows a list of objects to interact with");
             Console.WriteLine("help: will bring up a menu like this");
+            Console.WriteLine("key: only when needing to unlock next room for testing");
             Console.WriteLine("!WARNING! Mispelling will cause game to end :)");
 
 
@@ -31,6 +34,11 @@ namespace Simple_Base_Code
                         {
                             m.nextRoom();
                             Console.WriteLine("Yo u in");
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("Locked bum");
                         }
                         break;
 
