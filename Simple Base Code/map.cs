@@ -36,6 +36,35 @@ namespace Simple_Base_Code
                      * Puzzle piece will be found hiding behind the broken frame, next to broken glass
                      * player takes the puzzle piece, completes puzzle, gets a key to leave the room and they walk out of the door
                      */
+                    ex = new item("timer", "start running");
+                    najRoom.Add(ex);
+
+                    ex = new item("box", "open");
+                    najRoom.Add(ex);
+
+                    ex = new item("puzzle", "not assembled");
+                    najRoom.Add(ex);
+
+                    ex = new item("Table one", "empty");
+                    najRoom.Add(ex);
+
+                    ex = new item("Table two", "blank piece of paper");
+                    najRoom.Add(ex);
+
+                    ex = new item("shelf", "empty");
+                    najRoom.Add(ex);
+
+                    ex = new item("window", "open");
+                    najRoom.Add(ex);
+
+                    ex = new item("picture frame", "broken");
+                    najRoom.Add(ex);
+
+                    ex = new item("missing puzzle piece", "assemble");
+                    najRoom.Add(ex);
+
+                    ex = new item("key", "open door");
+                    najRoom.Add(ex);
                 }
 
                 if (i == 2)
